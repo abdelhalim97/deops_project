@@ -2,7 +2,6 @@
     agent none
     environment {
 		DOCKERHUB_CREDENTIALS=credentials('abdelhalim97')
-        
 	}
     stages {
         stage('Init') {
